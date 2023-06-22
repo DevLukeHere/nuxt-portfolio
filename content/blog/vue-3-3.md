@@ -2,7 +2,7 @@
 title: Announcing Vue 3.3
 description: This release is focused on developer experience improvements and bug fixes.
 date: 2023-05-24
-cover: karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg
+cover: code-monitor-2.jpg
 tags:
   - vue
 ---
