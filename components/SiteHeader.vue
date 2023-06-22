@@ -2,7 +2,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
-const route = { name: "index" }
+const route = useRoute()
 
 const navigation = [
   { name: 'Home', href: '/', current: route.name === "index" },
