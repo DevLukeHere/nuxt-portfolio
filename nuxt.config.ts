@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/apollo'
   ],
   runtimeConfig: {
-    githubToken: process.env.NEXT_PUBLIC_GITHUB_TOKEN
+    githubToken: process.env.GITHUB_TOKEN
   },
   content: {
     // https://content.nuxtjs.org/api/configuration
