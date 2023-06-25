@@ -2,10 +2,7 @@
   <h1 class="text-3xl font-bold my-8">Uses</h1>
   <p class="text-lg">
     I am often asked about the gear I use as a software developer and content creator. The hardware and software I use is
-    changing all the time so this page will serve as a place for an updated list. If you have a question about anything I
-    use or a suggestion for something I am missing please reach out to me on
-    <a href="https://www.twitter.com/therealdanvega" aria-label="Dan Vega on Twitter"
-      rel="noopener noreferrer">Twitter</a>. The
+    changing all the time so this page will serve as a place for an updated list. The
     inspiration for this page came from
     <a href="https://wesbos.com/uses" aria-label="Wes Bos Uses" rel="noopener noreferrer">Wes Bos</a>'s uses page and has
     been
@@ -18,7 +15,7 @@
     <li class="ml-8 py-1"><a href="https://vuejs.org/" rel="noopener noreferrer">Vue 3</a></li>
     <li class="ml-8 py-1"><a href="https://nuxt.com/" rel="noopener noreferrer">Nuxt 3</a></li>
     <li class="ml-8 py-1"><a href="https://tailwindcss.com/" rel="noopener noreferrer">Tailwind CSS</a></li>
-    <li class="ml-8 py-1">Hosted on <a href="https://netlify.com/" rel="noopener noreferrer">Vercel</a></li>
+    <li class="ml-8 py-1">Hosted on <a href="https://vercel.com/" rel="noopener noreferrer">Vercel</a></li>
   </ul>
 
   <h2 class="text-2xl font-bold mt-8 mb-2">Editor and Terminal</h2>
@@ -42,4 +39,5 @@
     </li>
   </ul>
 
-  <img src="~/assets/images/vscode_synthwave.png" alt="Visual Studio Code Synthwave 84 Theme" class="mt-8 mb-20" /></template>
+  <img src="~/assets/images/vscode_synthwave.png" alt="Visual Studio Code Synthwave 84 Theme" class="mt-8 mb-20" />
+</template>
