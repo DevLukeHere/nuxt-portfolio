@@ -4,7 +4,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
     "@nuxt/content",
-    "@nuxtjs/apollo",
   ],
   runtimeConfig: {
     githubToken: process.env.GITHUB_TOKEN,
