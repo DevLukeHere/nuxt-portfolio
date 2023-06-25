@@ -16,11 +16,11 @@ export default defineNuxtConfig({
       preload: ["ts", "js", "css", "java", "json", "bash", "vue"],
     },
   },
-  apollo: {
-    clients: {
-      default: {
-        httpEndpoint: 'https://api.github.com/graphql'
-      }
-    },
-  },
+  // apollo: {
+  //   clients: {
+  //     default: {
+  //       httpEndpoint: 'https://api.github.com/graphql'
+  //     }
+  //   },
+  // },
 });
