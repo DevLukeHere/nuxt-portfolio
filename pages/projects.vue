@@ -35,7 +35,7 @@ const { data, error } = await useAsyncQuery(query)
   <section class="grid grid-cols-2 gap-10">
     <div v-for="project in data?.viewer.repositories.nodes" :key="project.id"
       class="p-8 border-4 my-4 rounded-lg hover:bg-gray-50">
-      <a :href="project.url" target="_blank" rel=”noopener noreferrer”>
+      <a :href="project.url" target="_blank" rel="noopener noreferrer">
         <h2 class="text-2xl text-indigo-800 font-semibold mb-2 hover:underline">{{ project.name }}</h2>
       </a>
       <p>{{ project.description }}</p>
