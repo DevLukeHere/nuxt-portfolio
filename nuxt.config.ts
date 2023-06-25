@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    githubToken: process.env.GITHUB_TOKEN,
+    githubToken: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
   },
   apollo: {
     clients: {
