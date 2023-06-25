@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 const query = gql`
 {
   viewer {
@@ -47,4 +47,4 @@ const { data, error } = await useAsyncQuery(query)
       </div>
     </div>
   </section>
-</template>
+</template> -->
