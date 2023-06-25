@@ -4,7 +4,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 
   // TODO: resolve TypeScript error
   // @ts-ignore
-  nuxtApp.hook("apollo:auth", ({ client: any, token: any }) => {
+  nuxtApp.hook("apollo:auth", ({ client, token }) => {
     // `client` can be used to differentiate logic on a per client basis.
 
     // TODO: resolve TypeScript error
