@@ -16,7 +16,7 @@
     <li class="ml-8 py-1"><a href="https://vuejs.org/">Vue 3</a></li>
     <li class="ml-8 py-1"><a href="https://nuxt.com/">Nuxt 3</a></li>
     <li class="ml-8 py-1"><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
-    <li class="ml-8 py-1">Hosted on <a href="https://netlify.com/">Netlify</a></li>
+    <li class="ml-8 py-1">Hosted on <a href="https://netlify.com/">Vercel</a></li>
   </ul>
 
   <h2 class="text-2xl font-bold mt-8 mb-2">Editor and Terminal</h2>
