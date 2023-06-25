@@ -1,4 +1,9 @@
 <template>
+  <Head>
+    <Title>Luke | Uses</Title>
+    <Meta name="description" content="This is my setup." />
+  </Head>
+
   <h1 class="text-3xl font-bold my-8">Uses</h1>
   <p class="text-lg">
     I am often asked about the gear I use as a software developer and content creator. The hardware and software I use is

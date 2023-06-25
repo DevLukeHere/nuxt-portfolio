@@ -8,6 +8,11 @@ const { data: posts } = await useAsyncData('latest-posts', () =>
 </script>
 
 <template>
+  <Head>
+    <Title>Luke | Home</Title>
+    <Meta name="description" content="This is my homepage" />
+  </Head>
+
   <section>
     <h1 class="text-5xl font-bold mt-20">👋🏻 Hello, I'm Luke Wong!</h1>
     <p class="text-base text-gray-900 p-2 italic">Web Developer at Hiredly</p>
@@ -33,7 +38,7 @@ const { data: posts } = await useAsyncData('latest-posts', () =>
         running and lifting weights to get me through the week.
       </p>
     </div>
-    <img src="~/assets/images/luke-avatar.jpg" class="w-1/2 md:max-w-sm p-8 mx-auto" />
+    <img src="~/assets/images/luke-avatar.jpg" class="w-1/2 md:max-w-sm p-8 mx-auto rounded-full" />
   </section>
 
   <section>
