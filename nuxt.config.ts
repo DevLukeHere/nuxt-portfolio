@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxtjs/apollo",
   ],
   content: {
-    // https://content.nuxtjs.org/api/configuration
     highlight: {
       theme: "nord",
       preload: ["ts", "js", "css", "vue", "json"],
